@@ -1,53 +1,53 @@
-# In the exercises below, write your own code where indicated
-# to achieve the desired result.
+# # In the exercises below, write your own code where indicated
+# # to achieve the desired result.
 
-# One example is already completed. Your task is to complete
-# any remaining prompt.
+# # One example is already completed. Your task is to complete
+# # any remaining prompt.
 
-# Make sure to run the file in your command line. Look back
-# at the directions from Section 1 if you need a refresher on how to do that.
+# # Make sure to run the file in your command line. Look back
+# # at the directions from Section 1 if you need a refresher on how to do that.
 
 
-#-------------------
-# PART 1: Comparing variables
-#-------------------
+# #-------------------
+# # PART 1: Comparing variables
+# #-------------------
 
-number_teachers = 4
-number_students = 20
-string_teachers = "4"
-numberDogs = 0
+# number_teachers = 4
+# number_students = 20
+# string_teachers = "4"
+# numberDogs = 0
 
-# EXAMPLE: print the result of the comparison: is number_teachers greater than number_students?
-puts "Is number_teachers greater than number_students?", number_teachers > number_students
-# this should print: "Is numberTeachers greater than numberStudents?" false
+# # EXAMPLE: print the result of the comparison: is number_teachers greater than number_students?
+# puts "Is number_teachers greater than number_students?", number_teachers > number_students
+# # this should print: "Is numberTeachers greater than numberStudents?" false
 
-# YOU DO: print the result of the comparison: is number_teachers less than number_students?
-puts number_teachers < number_students
-# this should print: true
+# # YOU DO: print the result of the comparison: is number_teachers less than number_students?
+# puts number_teachers < number_students
+# # this should print: true
 
-# YOU DO: print the result of the comparison: is number_teachers equal to string_teachers?
-puts number_teachers == string_teachers
-# this should print: false
+# # YOU DO: print the result of the comparison: is number_teachers equal to string_teachers?
+# puts number_teachers == string_teachers
+# # this should print: false
 
-# YOU DO: print the result of the comparison: is number_teachers not equal to number_students?
-puts number_teachers != number_students
-# this should print: true
+# # YOU DO: print the result of the comparison: is number_teachers not equal to number_students?
+# puts number_teachers != number_students
+# # this should print: true
 
-# YOU DO: print the result of the comparison: is number_students greater than or equal to 20?
-puts number_students >= 20
-# this should print: true
+# # YOU DO: print the result of the comparison: is number_students greater than or equal to 20?
+# puts number_students >= 20
+# # this should print: true
 
-# YOU DO: print the result of the comparison: is number_students greater than or equal to 21?
-puts number_students >= 21
-# this should print: false
+# # YOU DO: print the result of the comparison: is number_students greater than or equal to 21?
+# puts number_students >= 21
+# # this should print: false
 
-# YOU DO: print the result of the comparison: is number_students less than or equal to 20?
-puts number_students <= 20
-# this should print: true
+# # YOU DO: print the result of the comparison: is number_students less than or equal to 20?
+# puts number_students <= 20
+# # this should print: true
 
-# YOU DO: print the result of the comparison: is number_students less than or equal to 21?
-puts number_students <= 21
-# this should print: true
+# # YOU DO: print the result of the comparison: is number_students less than or equal to 21?
+# puts number_students <= 21
+# # this should print: true
 
 
 #-------------------
@@ -59,34 +59,30 @@ puts number_students <= 21
 # Be as technically precise as possible, but don't just copy and paste a definition from the readings.
 # Make sure YOU can explain it that way!
 
+puts 4 < 9
+#YOU DO: Explain. 
+# prints the evaluation of if 4 is less than 9  
+# the result is true
 
+books = 3
+puts 4 < books
+# YOU DO: Explain.
+# prints the evaluation of if 4 is less than books
+# the result is false
 
+friends = 6
+siblings = 2
+puts friends > siblings
+# YOU DO: Explain.
+#  prints the evaluation of if frinds is greater than siblings 
+# the result is true
 
-
-
-
-
-
-
-
-#-------------------------------------
-# puts 4 < 9
-# #YOU DO: Explain.
-
-# books = 3
-# puts 4 < books
-# # YOU DO: Explain.
-
-# friends = 6
-# siblings = 2
-# puts friends > siblings
-# # YOU DO: Explain.
-
-# attendees = 9
-# meals = 8
-# puts attendees != meals
-# # YOU DO: Explain.
-
+attendees = 9
+meals = 8
+puts attendees != meals
+# YOU DO: Explain.
+# prints the evaluation of if attendees is not equal to meals
+# the answer true
 
 # #-------------------
 # # PART 3: Logical Operators
