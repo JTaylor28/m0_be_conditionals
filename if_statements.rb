@@ -10,7 +10,7 @@
   # if it is snowy, print "coat"
   # if it is icy, print "yak traks"
 
-weather = "sunny"
+weather = "rainy"
 
 if weather == "sunny"
   p "sunscreen"
@@ -43,9 +43,11 @@ end
 
 num_quarters = 0
 
+if num_quarters == 1
 puts "I have enough money for a gumball"
+elsif num_quarters <= 0
 puts "I don't have enough money for a gumball"
-
+end
 
 #####################
 # Using the variables defined below, write code that will tell you
