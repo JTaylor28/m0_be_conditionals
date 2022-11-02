@@ -1,53 +1,53 @@
-# # In the exercises below, write your own code where indicated
-# # to achieve the desired result.
+# In the exercises below, write your own code where indicated
+# to achieve the desired result.
 
-# # One example is already completed. Your task is to complete
-# # any remaining prompt.
+# One example is already completed. Your task is to complete
+# any remaining prompt.
 
-# # Make sure to run the file in your command line. Look back
-# # at the directions from Section 1 if you need a refresher on how to do that.
+# Make sure to run the file in your command line. Look back
+# at the directions from Section 1 if you need a refresher on how to do that.
 
 
-# #-------------------
-# # PART 1: Comparing variables
-# #-------------------
+#-------------------
+# PART 1: Comparing variables
+#-------------------
 
-# number_teachers = 4
-# number_students = 20
-# string_teachers = "4"
-# numberDogs = 0
+number_teachers = 4
+number_students = 20
+string_teachers = "4"
+numberDogs = 0
 
-# # EXAMPLE: print the result of the comparison: is number_teachers greater than number_students?
-# puts "Is number_teachers greater than number_students?", number_teachers > number_students
-# # this should print: "Is numberTeachers greater than numberStudents?" false
+# EXAMPLE: print the result of the comparison: is number_teachers greater than number_students?
+puts "Is number_teachers greater than number_students?", number_teachers > number_students
+# this should print: "Is numberTeachers greater than numberStudents?" false
 
-# # YOU DO: print the result of the comparison: is number_teachers less than number_students?
-# puts number_teachers < number_students
-# # this should print: true
+# YOU DO: print the result of the comparison: is number_teachers less than number_students?
+puts number_teachers < number_students
+# this should print: true
 
-# # YOU DO: print the result of the comparison: is number_teachers equal to string_teachers?
-# puts number_teachers == string_teachers
-# # this should print: false
+# YOU DO: print the result of the comparison: is number_teachers equal to string_teachers?
+puts number_teachers == string_teachers
+# this should print: false
 
-# # YOU DO: print the result of the comparison: is number_teachers not equal to number_students?
-# puts number_teachers != number_students
-# # this should print: true
+# YOU DO: print the result of the comparison: is number_teachers not equal to number_students?
+puts number_teachers != number_students
+# this should print: true
 
-# # YOU DO: print the result of the comparison: is number_students greater than or equal to 20?
-# puts number_students >= 20
-# # this should print: true
+# YOU DO: print the result of the comparison: is number_students greater than or equal to 20?
+puts number_students >= 20
+# this should print: true
 
-# # YOU DO: print the result of the comparison: is number_students greater than or equal to 21?
-# puts number_students >= 21
-# # this should print: false
+# YOU DO: print the result of the comparison: is number_students greater than or equal to 21?
+puts number_students >= 21
+# this should print: false
 
-# # YOU DO: print the result of the comparison: is number_students less than or equal to 20?
-# puts number_students <= 20
-# # this should print: true
+# YOU DO: print the result of the comparison: is number_students less than or equal to 20?
+puts number_students <= 20
+# this should print: true
 
-# # YOU DO: print the result of the comparison: is number_students less than or equal to 21?
-# puts number_students <= 21
-# # this should print: true
+# YOU DO: print the result of the comparison: is number_students less than or equal to 21?
+puts number_students <= 21
+# this should print: true
 
 
 #-------------------
@@ -84,35 +84,43 @@ puts attendees != meals
 # prints the evaluation of if attendees is not equal to meals
 # the answer true
 
-# #-------------------
-# # PART 3: Logical Operators
-# #-------------------
+#-------------------
+# PART 3: Logical Operators
+#-------------------
 
-# is_hungry = true
-# finished_homework = false
+is_hungry = true
+finished_homework = false
 
-# # EXAMPLE:
-# # Determine if the user is hungry and has completed their homework
-# puts is_hungry && finished_homework
-# # Determine if the user is hungry or has completed their homework
-# puts is_hungry || finished_homework
+# EXAMPLE:
+# Determine if the user is hungry and has completed their homework
+puts is_hungry && finished_homework
+# Determine if the user is hungry or has completed their homework
+puts is_hungry || finished_homework
 
-# loves_to_play = true
-# loves_dog_park = false
-# loves_treats = true
-# age = 1
+loves_to_play = true
+loves_dog_park = false
+loves_treats = true
+age = 1
 
-# # YOU DO:
-# # Determine if the dog loves to play and loves treats
+# YOU DO:
+# Determine if the dog loves to play and loves treats
 
+puts loves_to_play && loves_to_play
 
-# # Determine if the dog loves to play and loves the dog park
+# Determine if the dog loves to play and loves the dog park
 
+puts loves_to_play && loves_dog_park
 
-# # Determine if the dog loves to play or loves the dog park
+# Determine if the dog loves to play or loves the dog park
 
+puts loves_to_play || loves_dog_park
 
-# # Determine if the dog loves to play and is a puppy
+# Determine if the dog loves to play and is a puppy
 
-# # What did your final line of code evaluate to? Why do you think that is? Explain.
-# # ANSWER:
+puts loves_to_play && (age < 1)
+
+# What did your final line of code evaluate to? Why do you think that is? Explain.
+# ANSWER: 
+# False, the definition of a puppy is less than one year old, and the dog is 1 year old. it is no long a puppy.
+# loves_to_play is true, and age < 1 will evaluate to false.  Therefore ANDing these two boolean values together is like,
+# true && false, which results in a false
